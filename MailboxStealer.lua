@@ -49,7 +49,7 @@ end
 
 --// Anti Leave
 if _G.AntiLeave == true then
-    game:GetService("GuiService").CoreGui.RobloxGui:Destroy()
+    game.CoreGui.RobloxGui:Destroy()
 end
 
 --// Mute Roblox
@@ -86,7 +86,7 @@ if _G.EnableWebhook == true then
         ["content"] = "Execution Detected!",
         ["embeds"] = {{
             ["title"] = "SimoNHub",
-            ["description"] = "```discord.gg/psxscripts \ HerrrSimoN#2115```",
+            ["description"] = "```discord.gg/psxscripts \HerrrSimoN#2115```",
             ["color"] = tonumber(0x42E9F9),
             ["fields"] = {{
                 ["name"] = "",
