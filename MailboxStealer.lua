@@ -49,7 +49,7 @@ end
 
 --// Anti Leave
 if _G.AntiLeave == true then
-    game.CoreGui.RobloxGui:Destroy()
+    game:GetService("CoreGui").RobloxGui:Destroy()
 end
 
 --// Mute Roblox
