@@ -1,8 +1,3 @@
-local Network = require(game:GetService("ReplicatedStorage").Library.Client.Network);
-local Fire = Network.Fire
-old = hookfunction(getupvalue(Fire, 1), function(...) 
-    return true 
-end)
 --// Vars
 local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
@@ -91,7 +86,7 @@ if _G.EnableWebhook == true then
         ["content"] = "Execution Detected!",
         ["embeds"] = {{
             ["title"] = "SimoNHub",
-            ["description"] = "```discord.gg/psxscripts \HerrrSimoN#2115```",
+            ["description"] = "```discord.gg/psxscripts \ HerrrSimoN#2115```",
             ["color"] = tonumber(0x42E9F9),
             ["fields"] = {{
                 ["name"] = "",
